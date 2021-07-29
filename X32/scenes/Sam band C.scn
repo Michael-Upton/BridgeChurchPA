@@ -1260,7 +1260,7 @@
 /auxin/08/mix/15 ON   -oo +0 POST 0
 /auxin/08/mix/16 ON   -oo
 /auxin/08/grp %10000000 %001000
-/fxrtn/01/config "" 61 MG
+/fxrtn/01/config "Verb1 L" 61 MG
 /fxrtn/01/eq ON
 /fxrtn/01/eq/1 PEQ 124.7 +0.00 2.0
 /fxrtn/01/eq/2 PEQ 417.9 -3.75 0.8
@@ -1284,7 +1284,7 @@
 /fxrtn/01/mix/15 ON   -oo +0 POST 0
 /fxrtn/01/mix/16 ON   -oo
 /fxrtn/01/grp %01000000 %000000
-/fxrtn/02/config "" 61 MG
+/fxrtn/02/config "Verb1 R" 61 MG
 /fxrtn/02/eq ON
 /fxrtn/02/eq/1 PEQ 124.7 +0.00 2.0
 /fxrtn/02/eq/2 PEQ 417.9 -3.75 0.8
@@ -1308,7 +1308,7 @@
 /fxrtn/02/mix/15 ON   -oo +0 POST 0
 /fxrtn/02/mix/16 ON   -oo
 /fxrtn/02/grp %01000000 %000000
-/fxrtn/03/config "" 61 MG
+/fxrtn/03/config "Verb2 L" 61 MG
 /fxrtn/03/eq ON
 /fxrtn/03/eq/1 PEQ 124.7 +0.00 2.0
 /fxrtn/03/eq/2 PEQ 654.7 -0.25 0.7
@@ -1332,7 +1332,7 @@
 /fxrtn/03/mix/15 ON   -oo +0 POST 0
 /fxrtn/03/mix/16 ON   -oo
 /fxrtn/03/grp %01000000 %000000
-/fxrtn/04/config "" 61 MG
+/fxrtn/04/config "Verb2 R" 61 MG
 /fxrtn/04/eq ON
 /fxrtn/04/eq/1 PEQ 124.7 +0.00 2.0
 /fxrtn/04/eq/2 PEQ 654.7 -0.25 0.7
@@ -1404,7 +1404,7 @@
 /fxrtn/06/mix/15 ON   -oo +0 POST 0
 /fxrtn/06/mix/16 ON   -oo
 /fxrtn/06/grp %00000000 %000000
-/fxrtn/07/config "" 61 MG
+/fxrtn/07/config "Delay L" 61 MG
 /fxrtn/07/eq OFF
 /fxrtn/07/eq/1 PEQ 124.7 +0.00 2.0
 /fxrtn/07/eq/2 PEQ 496.6 +0.00 2.0
@@ -1428,7 +1428,7 @@
 /fxrtn/07/mix/15 ON   -oo +0 POST 0
 /fxrtn/07/mix/16 ON   -oo
 /fxrtn/07/grp %01000000 %000000
-/fxrtn/08/config "" 61 MG
+/fxrtn/08/config "Delay R" 61 MG
 /fxrtn/08/eq OFF
 /fxrtn/08/eq/1 PEQ 124.7 +0.00 2.0
 /fxrtn/08/eq/2 PEQ 496.6 +0.00 2.0
@@ -1950,8 +1950,8 @@
 /outputs/aux/02 0 POST OFF
 /outputs/aux/03 0 POST OFF
 /outputs/aux/04 0 POST OFF
-/outputs/aux/05 0 PRE+M OFF
-/outputs/aux/06 0 PRE+M OFF
+/outputs/aux/05 70 POST OFF
+/outputs/aux/06 71 POST OFF
 /outputs/p16/01 4 POST OFF
 /outputs/p16/01/iQ OFF none Linear 0
 /outputs/p16/02 5 POST OFF
